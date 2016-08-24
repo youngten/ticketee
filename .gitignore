@@ -15,3 +15,13 @@
 /log/*
 !/log/.keep
 /tmp
+
+# /public/uploads/tmp
+/public/uploads
+/public/images
+/app/assets/images
+/.idea
+
+# Ignore application configuration
+/config/application.yml
+
