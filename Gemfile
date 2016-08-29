@@ -23,9 +23,9 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-gem "rspec-rails", "~> 3.2.1"
+gem "rspec-rails", "~> 3.5.2"
 group :test do
-  gem "capybara", "~> 2.4"
+  gem "capybara", "~> 2.8.1"
 end
 
 # Use ActiveModel has_secure_password
@@ -42,7 +42,7 @@ group :development, :test do
   gem 'byebug'
 
   # Access an IRB console on exception pages or by using <%= console %> in views
-  gem 'web-console', '~> 2.0'
+  # gem 'web-console', '~> 2.0'
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
