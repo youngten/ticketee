@@ -26,6 +26,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem "rspec-rails", "~> 3.5.2"
 group :test do
   gem "capybara", "~> 2.8.1"
+  gem "factory_girl_rails", "~> 4.7.0"
 end
 
 # Use ActiveModel has_secure_password
