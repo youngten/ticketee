@@ -1,6 +1,6 @@
 class ProjectsController < ApplicationController
 
-  before_action :set_project , only: [:edit, :update, :show]
+  before_action :set_project , only: [:edit, :update, :show, :destroy]
 
   def index
     @projects = Project.all
@@ -35,6 +35,11 @@ class ProjectsController < ApplicationController
     end
   end
 
+  def destroy
+    @project.destroy
+    flash[:notice] = "Project has been deleted."
+    redirect_to projects_path
+  end
 
   def show
   end
